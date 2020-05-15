@@ -1,0 +1,10 @@
+{
+	"type": "resource",
+	"name": "Potassium-water shell",
+	"description": "Used in turrets as explosive ammo; higly explosive.",
+	"cost": 1.3,
+	"flammability": 0,
+	"radioactivity": 0.1,
+	"explosiveness": 1,
+	"color": "748096"
+}
