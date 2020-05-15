@@ -1,0 +1,42 @@
+{
+	"size": 6,
+	"health": 9750,
+	"range": 300,
+	"reload": 180,
+	"coolantMultiplier": 0.6,
+	"shootCone": 40,
+	"shootDuration": 320,
+	"powerUse": 50,
+	"shootShake": 4,
+	"firingMoveFract": 0.1,
+	"shootEffect": "",
+	"recoil": 8,
+	"localizedName": "Tybugathos",
+	"description": "A fellow gamer, fires ree lasers at scrubs",
+	"cooldown": 0.012,
+	"hasPower": true,
+	"hasLiquids": true,
+	"shootSound": "",
+	"heatColor": "ffffff",
+	"rotatespeed": 1.1,
+	"activeSound": "",
+	"activeSoundVolume": 5,
+	"expanded": true,
+	"consumes": {
+		"liquid": {
+			"liquid": "cryofluid",
+			"amount": 10
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 10000 },
+		{ "item": "lead", "amount": 10000 },
+		{ "item": "graphite", "amount": 2500 },
+		{ "item": "titanium", "amount": 2500 },
+		{ "item": "surge-alloy", "amount": 1000 },
+		{ "item": "silicon", "amount": 6000 },
+		{ "item": "thorium", "amount": 2000 },
+	],
+	"category": "turret",
+	"research": "meltdown",
+}
