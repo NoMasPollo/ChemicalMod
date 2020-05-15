@@ -59,7 +59,7 @@ const ree = extend(BasicBulletType, {
 });
 
 ree.speed = 0.001;
-ree.damage = 140;
+ree.damage = 280;
 ree.lifetime = 18;
 ree.hitEffect = Fx.hitMeltdown;
 ree.despawnEffect = Fx.none;
