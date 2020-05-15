@@ -104,5 +104,5 @@ const Tybugathos = extendContent(LaserTurret, "Tybugathos",{
 		Draw.color();
 	}
 });
-calamityii.shootType = ree;
-calamityii.update = true;
+Tybugathos.shootType = ree;
+Tybugathos.update = true;
