@@ -1,0 +1,38 @@
+type: GenericCrafter
+name: Water Capsule Creator
+description: Uses an experimental procedure to make compressed water shells.
+itemCapacity: 50
+liquidCapacity: 50
+health: 1000
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 30
+updateEffect: mine
+consumes: {
+  power: 3
+  items: {
+    items: [
+	lead/3
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.6
+  }
+}
+requirements: [
+  lead/300
+  graphite/130
+  silicon/175
+  titanium/200
+  potassium/35
+]
+category: crafting
+research: cryofluid-mixer
+activeSound: respawning
+activeSoundVolume: 0.95
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem:water-capsule/2
