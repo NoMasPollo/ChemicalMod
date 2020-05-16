@@ -74,14 +74,14 @@ const Tybugathos = extendContent(LaserTurret, "Tybugathos",{
 		this.super$load();
 		
 		this.region = Core.atlas.find(this.name);
-		this.baseRegion = Core.atlas.find("ChemicalMod-block-8");
+		this.baseRegion = Core.atlas.find("ChemicalMod-block-0");
 		this.heatRegion = Core.atlas.find(this.name + "-heat");
 	},
 	
 	generateIcons: function(){
 	return [
-		Core.atlas.find("ChemicalMod-block-8"),
-		Core.atlas.find("ChemicalMod-block-9")
+		Core.atlas.find("ChemicalMod-block-0"),
+		Core.atlas.find("ChemicalMod-block-0")
 	];},
 	
 	draw: function(tile){
@@ -104,5 +104,5 @@ const Tybugathos = extendContent(LaserTurret, "Tybugathos",{
 		Draw.color();
 	}
 });
-Tybugathos.shootType = ree;
-Tybugathos.update = true;
+placeholder-turret.shootType = ree;
+placeholder-turret.update = true;
