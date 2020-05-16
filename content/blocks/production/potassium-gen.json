@@ -1,7 +1,7 @@
 {
 	"localizedName": "Potassium Synthesizer",
 	"description": "Produces potassium using a hidden process; highly expensive and wasteful, but necessary.",
-	"outputItem": {"item": "potassium", "amount": 1},
+	"outputItem": {"item": "Potassium", "amount": 1},
 	"size": 3,
 	"hasLiquids": false,
 	"hasPower": true,
