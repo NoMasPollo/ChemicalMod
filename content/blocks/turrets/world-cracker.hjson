@@ -2,7 +2,7 @@ type: LaserTurret
 name:World Cracker
 description: Highly upgraded meltdown, capable of desryoing planets if pointed into it.
 health: 60000
-size: 10
+size: 8
 reload: 100
 range: 800
 ammoUseEffect: smoke
