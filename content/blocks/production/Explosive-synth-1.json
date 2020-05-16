@@ -1,7 +1,7 @@
 {
 	"localizedName": "Explosives synthesizer MK1",
 	"description": "Uses an experimental process to synthesize highly volatile munitions.",
-	"outputItem": {"item": "Potassium-water shell", "amount": 1},
+	"outputItem": {"item": "Potassium-water-shell", "amount": 1},
 	"size": 2,
 	"health": 500,
 	"hasLiquids": true,
