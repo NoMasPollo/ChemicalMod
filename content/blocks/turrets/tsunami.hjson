@@ -1,19 +1,19 @@
-type: BurstTurret
+type: ItemTurret
 name:Tsunami
-description: Upgraded wave, capable of firing bursts of small water capsules to detonate on contact
+description: Upgraded wave, capable of firing many small liquid capsules to detonate on contact
 health: 6020
 size: 3
-reload: 1
-range: 80
+reload: 100
+range: 160
 ammoUseEffect: smoke
 maxAmmo: 150
 rotatespeed: 9
 shots: 4
+inaccuracy: 4
 recoil: 10
 shootshake: 0.01
 targetAir: false
 ammoPerShot: 4
-burstSpacing: 12
 ammo: {
   water-capsule:{
   type: BasicBulletType
