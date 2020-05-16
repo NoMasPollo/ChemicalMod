@@ -1,0 +1,39 @@
+type: BurstTurret
+name:Tsunami
+description: Highly specialized upgrade to the Ripple; fires a large amount of ammo at once.
+health: 6020
+size: 3
+reload: 1
+range: 400
+ammoUseEffect: smoke
+maxAmmo: 150
+rotatespeed: 9
+shots: 4
+recoil: 10
+spread: 10
+shootshake: 1
+targetAir: false
+ammoPerShot: 4
+burstSpacing: 12
+ammo: {
+  water-capsule:{
+  type: ArtilleryBulletType
+  knockback: 10
+  speed: 3
+  inaccuracy: 6
+  lifetime: 400
+  status: melting
+  ammoMultiplier: 5
+  splashDamage: 50
+  splashDamageRadius: 40
+  }
+}
+requirements: [
+  potassium/125
+  copper/400
+  silicon/125
+  titanium/125
+  thorium/125
+]
+category: turret
+research: wave
