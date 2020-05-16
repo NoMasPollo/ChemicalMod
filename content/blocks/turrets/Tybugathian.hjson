@@ -10,7 +10,7 @@ maxAmmo: 500
 rotatespeed: 9
 shots: 100
 recoil: 10
-spread 6
+spread: 6
 shootshake: 1
 targetAir: false
 ammoPerShot: 100
