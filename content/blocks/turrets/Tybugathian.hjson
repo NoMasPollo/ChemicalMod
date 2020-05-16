@@ -18,10 +18,10 @@ ammo: {
   potassium-water-shell:{
   type: ArtilleryBulletType
   knockback: 10
-  lifetime: 4000
+  speed: 3
+  lifetime: 400
   status: melting
-  inaccuracy: 4
-  ammoMultiplier: 1
+  ammoMultiplier: 5
   splashDamage: 50
   splashDamageRadius: 40
   }
