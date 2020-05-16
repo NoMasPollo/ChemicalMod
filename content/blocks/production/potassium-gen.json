@@ -17,7 +17,7 @@ consumes: {
 	thorium/1
     ]
   }
-
+}
 requirements: [
   lead/300
   graphite/130
