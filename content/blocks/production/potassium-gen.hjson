@@ -4,6 +4,7 @@ description: Uses a secret technique to fuse copper into Potassium inefficently.
 itemCapacity: 50
 health: 1000
 size: 3
+flameColor: B01409
 hasPower: true
 hasLiquids: false
 hasItems: true
