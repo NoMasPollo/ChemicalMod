@@ -11,6 +11,7 @@ rotatespeed: 9
 shots: 250
 recoil: 10
 spread: 10
+inaccuracy: 10
 shootshake: 1
 targetAir: false
 ammoPerShot: 250
