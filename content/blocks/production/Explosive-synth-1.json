@@ -14,7 +14,7 @@ consumes: {
   power: 3
   items: {
     items: [
-      Potassium/1
+      potassium/1
 	lead/2
     ]
   }
@@ -29,7 +29,7 @@ requirements: [
   silicon/175
   titanium/200
   surge-alloy/35
-  Potassium/35
+  potassium/35
 ]
 category: crafting
 research: blast-mixer
