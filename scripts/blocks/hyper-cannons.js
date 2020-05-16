@@ -55,16 +55,5 @@ calamitylaser.pierce = true;
 calamitylaser.shootEffect = Fx.none;
 calamitylaser.smokeEffect = Fx.none;
 
-const calamity = extendContent(LaserTurret, "world-cracker",{
-	generateIcons: function(){
-	return [
-		Core.atlas.find("ChemicalMod-block-0"),
-		Core.atlas.find("ChemicalMod-world-cracker")
-	];},
-	
-	draw: function(tile){
-		Draw.rect(Core.atlas.find("ChemicalMod-block-0"), tile.drawx(), tile.drawy())
-	}
-});
-calamity.shootType = calamitylaser;
-calamity.update = true;
+world-cracker.shootType = calamitylaser;
+world-cracker.update = true;
