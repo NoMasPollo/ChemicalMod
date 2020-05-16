@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Explosive-Synthesizer MK1
 description: Uses an experimental procedure to make highly explosive shells.
 itemCapacity: 50
