@@ -18,7 +18,7 @@ ammo: {
   potassium-water-shell:{
   type: ArtilleryBulletType
   knockback: 10
-  lifetime: 40
+  lifetime: 4000
   status: melting
   inaccuracy: 4
   ammoMultiplier: 1
