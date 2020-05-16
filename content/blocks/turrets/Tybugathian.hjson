@@ -10,15 +10,19 @@ maxAmmo: 500
 rotatespeed: 9
 shots: 100
 recoil: 10
+spread 6
 shootshake: 1
 targetAir: false
 ammoPerShot: 100
 ammo: {
   potassium-water-shell:{
   type: ArtilleryBulletType
+  speed: 100
+  knockback: 10
+  drag: 1
   lifetime: 400
   status: melting
-  inaccuracy: 5
+  inaccuracy: 4
   ammoMultiplier: 1
   splashDamage: 50
   splashDamageRadius: 40
