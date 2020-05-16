@@ -37,4 +37,4 @@ activeSound: respawning
 activeSoundVolume: 0.95
 idleSound: respawning
 idleSoundVolume: 0.5
-outputItem: potassium-water shell/2
+outputItem: cork/2
