@@ -17,10 +17,9 @@ ammoPerShot: 100
 ammo: {
   potassium-water-shell:{
   type: ArtilleryBulletType
-  speed: 5
+  speed: 1000
   knockback: 10
-  drag: 0.5
-  lifetime: 400
+  lifetime: 40
   status: melting
   inaccuracy: 4
   ammoMultiplier: 1
