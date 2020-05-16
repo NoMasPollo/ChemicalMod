@@ -3,7 +3,7 @@ name:Tybugathian
 description: Highly specialized upgrade to the Ripple; fires a large amount of ammo at once.
 health: 6020
 size: 3
-reload: 800
+reload: 200
 range: 400
 ammoUseEffect: smoke
 maxAmmo: 500
@@ -17,9 +17,9 @@ ammoPerShot: 100
 ammo: {
   potassium-water-shell:{
   type: ArtilleryBulletType
-  speed: 100
+  speed: 5
   knockback: 10
-  drag: 1
+  drag: 0.5
   lifetime: 400
   status: melting
   inaccuracy: 4
