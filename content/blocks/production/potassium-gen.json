@@ -8,11 +8,11 @@
 	"hasItems": true,
 	"craftTime": 25,
 	"consumes": {
-		"power": 150,
+		"power": 2.0,
 		"items": {
 			"items": [
 				{ "item": "copper", "amount": 10 },
-				{ "item": "thorium", "amount": 1 },
+				{ "item": "thorium", "amount": 1 }
 			]
 		}
 	},
