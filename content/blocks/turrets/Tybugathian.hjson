@@ -1,0 +1,35 @@
+type: ArtilleryTurret
+name: Tybugathian
+description: Highly specialized upgrade to the Ripple; fires a large amount of ammo at once.
+health: 6020
+size: 3
+reload: 400
+range: 400
+ammoUseEffect: smoke
+maxAmmo: 500
+rotatespeed: 9
+shots: 100
+recoil: 10
+shootshake: 1
+targetAir: false
+ammoPerShot: 100
+ammo: {
+  potassium-water-shell:{
+  type: ArtilleryBulletType
+  lifetime: 400
+  status: melting
+  inaccuracy: 5
+  ammoMultiplier: 1
+  splashDamage: 50
+  splashDamageRadius: 40
+  }
+}
+requirements: [
+  potassium/125
+  copper/400
+  silicon/125
+  titanium/125
+  thorium/125
+]
+category: turret
+research: ripple
