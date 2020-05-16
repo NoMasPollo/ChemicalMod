@@ -8,17 +8,18 @@ range: 400
 ammoUseEffect: smoke
 maxAmmo: 500
 rotatespeed: 9
-shots: 100
+shots: 250
 recoil: 10
-spread: 6
+spread: 10
 shootshake: 1
 targetAir: false
-ammoPerShot: 100
+ammoPerShot: 250
 ammo: {
   potassium-water-shell:{
   type: ArtilleryBulletType
   knockback: 10
   speed: 3
+  inaccuracy: 6
   lifetime: 400
   status: melting
   ammoMultiplier: 5
