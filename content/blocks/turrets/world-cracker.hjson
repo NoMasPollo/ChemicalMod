@@ -3,7 +3,7 @@ name:World Cracker
 description: Highly upgraded meltdown, capable of desryoing planets if pointed into it.
 health: 60000
 size: 8
-reload: 100
+reload: 600
 range: 800
 ammoUseEffect: smoke
 powerUse: 100
