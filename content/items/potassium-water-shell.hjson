@@ -1,5 +1,5 @@
-type: resource
-name: Potassium-water shell
-description: Used in turrets as explosive ammo; highly explosive
+name: Potassium-Water Shell
+description: Used in turrets as explosive ammo; highly explosive.
+explosiveness: 10
 hardness: 0.1
 color: 325369
