@@ -3,27 +3,28 @@ name:Tsunami
 description: Upgraded wave, capable of firing many small liquid capsules to detonate on contact
 health: 6020
 size: 3
-reload: 100
+reload: 60
 range: 160
 ammoUseEffect: smoke
 maxAmmo: 150
 rotatespeed: 9
-shots: 4
+shots: 10
 inaccuracy: 4
 recoil: 10
 shootshake: 0.01
 targetAir: false
-ammoPerShot: 4
+ammoPerShot: 10
 ammo: {
   water-capsule:{
   type: BasicBulletType
   collidesAir: false
-  lifetime: 80
+  lifetime: 160
   knockback: 1
+  speed: 4
   status: wet
   splashDamage: 1
   splashDamageRadius: 3
-  fragBullets: 40
+  fragBullets: 120
   fragBullet: waterShot
   }
 }
