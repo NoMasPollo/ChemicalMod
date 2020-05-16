@@ -1,5 +1,5 @@
 type: ArtilleryTurret
-name: Tybugathian
+name:Tybugathian
 description: Highly specialized upgrade to the Ripple; fires a large amount of ammo at once.
 health: 6020
 size: 3
