@@ -28,8 +28,8 @@ ammo: {
       keepVelocity: false
 	    lifetime: 30
       damage: 2
-      bulletWidth: 1
-      bulletHeight: 2
+      bulletWidth: 10
+      bulletHeight: 20
 	    despawnEffect: plasticExplosion
 	    frontColor: b9eafe
   	  backColor: aaffff
