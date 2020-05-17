@@ -23,6 +23,7 @@ ammo: {
   status: melting
   ammoMultiplier: 1
   fragBullets: 20
+  fragVelocityMax: 10
   fragBullet: {
       type: BasicBulletType
       keepVelocity: false
