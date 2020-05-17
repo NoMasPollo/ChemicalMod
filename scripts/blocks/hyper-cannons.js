@@ -1,5 +1,4 @@
-const calamitylaser = extend(BasicBulletType, {
-	
+const cracker = extend(BasicBulletType, {
 	update: function(b){
 		Effects.shake(1.2, 1.2, b.x, b.y);
 		if(b.timer.get(1, 5)){
@@ -44,16 +43,16 @@ const calamitylaser = extend(BasicBulletType, {
 	}
 });
 
-calamitylaser.speed = 0.001;
-calamitylaser.damage = 100;
-calamitylaser.lifetime = 18;
-calamitylaser.hitEffect = Fx.hitMeltdown;
-calamitylaser.despawnEffect = Fx.none;
-calamitylaser.hitSize = 5;
-calamitylaser.drawSize = 660;
-calamitylaser.pierce = true;
-calamitylaser.shootEffect = Fx.none;
-calamitylaser.smokeEffect = Fx.none;
+cracker.speed = 0.001;
+cracker.damage = 100;
+cracker.lifetime = 18;
+cracker.hitEffect = Fx.hitMeltdown;
+cracker.despawnEffect = Fx.none;
+cracker.hitSize = 5;
+cracker.drawSize = 660;
+cracker.pierce = true;
+cracker.shootEffect = Fx.none;
+cracker.smokeEffect = Fx.none;
 
-world-cracker.shootType = calamitylaser;
+world-cracker.shootType = cracker;
 world-cracker.update = true;
