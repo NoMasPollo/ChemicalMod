@@ -6,26 +6,40 @@ size: 3
 reload: 200
 range: 400
 ammoUseEffect: smoke
-maxAmmo: 500
+maxAmmo: 100
 rotatespeed: 9
-shots: 250
+shots: 1
 recoil: 10
 spread: 10
-inaccuracy: 10
 shootshake: 1
 targetAir: false
-ammoPerShot: 250
+ammoPerShot: 20
 ammo: {
   potassium-water-shell:{
   type: ArtilleryBulletType
   knockback: 10
   speed: 3
-  inaccuracy: 6
   lifetime: 400
   status: melting
-  ammoMultiplier: 5
-  splashDamage: 50
-  splashDamageRadius: 40
+  ammoMultiplier: 1
+  fragBullets: 20
+  fragBullet: {
+      type: BasicBulletType
+      keepVelocity: false
+	    lifetime: 30
+      damage: 2
+      bulletWidth: 1
+      bulletHeight: 2
+	    despawnEffect: plasticExplosion
+	    frontColor: b9eafe
+  	  backColor: aaffff
+ 	    knockback: 30
+	    homingPower: 0.00125
+	    bulletSprite: shell
+      collides: false
+      splashDamage: 50
+      splashDamageRadius: 4
+    }
   }
 }
 requirements: [
