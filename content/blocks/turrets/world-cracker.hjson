@@ -8,27 +8,13 @@ range: 800
 ammoUseEffect: smoke
 powerUse: 100
 rotatespeed: 9
-maxAmmo: 500
-ammoPerShot:500
 shots: 1
 inaccuracy: 0
 recoil: 10
 shootshake: 0.1
 firingMoveFract: 0.00
 shootDuration: 500
-ammo: {
-  thorium:{
-  type: BasicBulletType
-  knockback: 0
-  speed: 0.00001
-  lifetime: 800
-  status: melting
-  damage:10000
-  ammoMultiplier: 1
-  piercing: true
-  bulletSprite:ChemicalMod-lasertemp
-  }
- }
+shootType: meltdownLaser
 requirements: [
   potassium/125
   copper/400
