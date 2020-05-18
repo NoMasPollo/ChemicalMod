@@ -2,7 +2,7 @@ size: 6
 update: true
 solid: true
 hasItems: true
-itemCapacity: 500
+itemCapacity: 300
 configurable: true
 localizedName: "Curulean"
 description: "A player-activatable block fires a nuclear projectile at enemies; does affect friends as as well."
