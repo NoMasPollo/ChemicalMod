@@ -1,52 +1,25 @@
-type: ArtilleryTurret
-name:Tybugathian
-description: Highly specialized upgrade to the Ripple; fires a large amount of ammo at once.
-health: 6020
-size: 3
-reload: 50
-range: 400
-ammoUseEffect: smoke
-maxAmmo: 100
-rotatespeed: 9
-shots: 1
-recoil: 10
-spread: 10
-shootshake: 1
-targetAir: false
-ammoPerShot: 20
-ammo: {
-  potassium-water-shell:{
-  type: ArtilleryBulletType
-  knockback: 10
-  speed: 3
-  lifetime: 400
-  status: melting
-  ammoMultiplier: 1
-  fragBullets: 20
-  fragBullet: {
-      type: BasicBulletType
-      keepVelocity: false
-	    lifetime: 30
-      damage: 2
-      bulletWidth: 10
-      bulletHeight: 20
-	    despawnEffect: plasticExplosion
-	    frontColor: b9eafe
-  	  backColor: aaffff
- 	    knockback: 35
-	    bulletSprite: shell
-      collides: false
-      splashDamage: 50
-      splashDamageRadius: 16
-    }
+size: 6
+update: true
+solid: true
+hasItems: true
+itemCapacity: 500
+configurable: true
+localizedName: "Curulean"
+description: "A player-activatable block fires a nuclear projectile at enemies; does affect friends as as well."
+category: turret
+requirements: [
+  graphite/75,
+  potassium/30
+]
+consumes: {
+  items: {
+    items: [
+      thorium/150
+      silicon/200
+      lead/300
+      metaglass/50
+      graphite/150
+    ]
   }
 }
-requirements: [
-  potassium/125
-  copper/400
-  silicon/125
-  titanium/125
-  thorium/125
-]
-category: turret
-research: ripple
+
