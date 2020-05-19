@@ -1,10 +1,10 @@
 type: ArtilleryTurret
-name:Tsunami
+name:Curulean
 description: Weapon to surpass metal gear.
 health: 6020
 size: 3
 reload: 6000
-range: 160
+range: 16000
 ammoUseEffect: smoke
 maxAmmo: 1000
 rotatespeed: 9
