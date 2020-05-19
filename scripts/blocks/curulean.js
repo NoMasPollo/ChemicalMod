@@ -8,7 +8,7 @@ const siloLaunchEffect = newEffect(20, e => {
 });
 
 //create the block type
-const silo = extendContent(Block, "scatter-silo", {
+const silo = extendContent(Block, "curulean", {
     //override the method to build configuration
     buildConfiguration(tile, table){
         table.addImageButton(Icon.upOpen, Styles.clearTransi, run(() => {
