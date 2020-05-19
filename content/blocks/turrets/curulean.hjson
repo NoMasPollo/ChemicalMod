@@ -2,7 +2,7 @@ type: ArtilleryTurret
 name:Curulean
 description: Weapon to surpass metal gear.
 health: 6020
-size: 3
+size: 8
 reload: 6000
 range: 16000
 ammoUseEffect: smoke
@@ -15,23 +15,22 @@ shootshake: 10.0
 ammoPerShot: 10
 ammo: {
   thorium:{
-  type: BasicBulletType
-  collidesTeam: true
+  type: ArtilleryBulletType
   lifetime: 160
   knockback: 1
-  speed: 4
-  splashDamage: 1
-  splashDamageRadius: 3
+  speed: 10
+  damage: 1
   fragBullets: 1200
   fragBullet:{
     type: BasicBulletType
       keepVelocity: false
 	    lifetime: 75
+	    collidesTeam: true
       damage: 150
       bulletWidth: 1
       bulletHeight: 1
-	    frontColor: b9eafe
-  	  backColor: aaffff
+	    frontColor: 3d3d3d
+  	  backColor: 3d3d3d
  	    knockback: 1
 	    bulletSprite: shell
       status: melting
