@@ -5,7 +5,7 @@ hasItems: true
 itemCapacity: 300
 configurable: true
 localizedName: "Curulean"
-description: "A player-activatable block fires a nuclear projectile at enemies; does affect friends as as well."
+description: "A player-activatable block that fires a nuclear projectile at enemies; does affect friends as as well."
 category: turret
 requirements: [
   graphite/75,
