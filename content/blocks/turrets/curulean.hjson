@@ -1,1 +1,50 @@
-
+type: ArtilleryTurret
+name:Tsunami
+description: Weapon to surpass metal gear.
+health: 6020
+size: 3
+reload: 6000
+range: 160
+ammoUseEffect: smoke
+maxAmmo: 1000
+rotatespeed: 9
+shots: 1
+inaccuracy: 2
+recoil: 100
+shootshake: 10.0
+ammoPerShot: 10
+ammo: {
+  thorium:{
+  type: BasicBulletType
+  collidesTeam: true
+  lifetime: 160
+  knockback: 1
+  speed: 4
+  splashDamage: 1
+  splashDamageRadius: 3
+  fragBullets: 1200
+  fragBullet:{
+    type: BasicBulletType
+      keepVelocity: false
+	    lifetime: 75
+      damage: 150
+      bulletWidth: 1
+      bulletHeight: 1
+	    frontColor: b9eafe
+  	  backColor: aaffff
+ 	    knockback: 1
+	    bulletSprite: shell
+      status: melting
+      homingPower:0.00525
+      }
+  }
+}
+requirements: [
+  potassium/125
+  copper/400
+  silicon/125
+  titanium/125
+  thorium/125
+]
+category: turret
+research: wave
