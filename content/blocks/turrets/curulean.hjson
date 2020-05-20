@@ -19,6 +19,7 @@ ammo: {
   lifetime: 100000
   knockback: 1
   speed: 10
+  fragVelocityMax:10
   damage: 1
   fragBullets: 1200
   fragBullet:{
