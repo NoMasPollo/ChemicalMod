@@ -16,7 +16,7 @@ ammoPerShot: 10
 ammo: {
   thorium:{
   type: ArtilleryBulletType
-  lifetime: 160
+  lifetime: 100000
   knockback: 1
   speed: 10
   damage: 1
