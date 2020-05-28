@@ -1,1 +1,26 @@
-
+type: ChargeTurret
+name:Supernova
+description: Highly upgraded meltdown, capable of desryoing planets if directly attacking.
+health: 60000
+size: 8
+reload: 600
+range: 800
+ammoUseEffect: smoke
+powerUse: 100
+rotatespeed: 9
+shots: 1
+inaccuracy: 0
+recoil: 10
+shootshake: 0.1
+firingMoveFract: 0.00
+shootDuration: 500
+shootType: meltdownLaser
+requirements: [
+  potassium/125
+  copper/400
+  silicon/125
+  titanium/125
+  thorium/125
+]
+category: turret
+research: meltdown
